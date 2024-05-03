@@ -1,0 +1,105 @@
+<?php
+
+function decodearrowtext($Ar){
+		switch ($Ar){
+			case "A":
+				return "M";
+			case "B":
+				return "1";
+			case "C":
+				return "2";
+			case "D":
+				return "3";
+			case "E":
+				return "4";
+			case "F":
+				return "5";		
+			case "G":
+				return "6";
+			case "H":
+				return "7";	
+			case "I":
+				return "8";					
+			case "J":
+				return "9";
+			case "L":
+				return "10";
+			case "K":
+				return "10";
+			case "a":
+				return "M*";
+			case "b":
+				return "1*";
+			case "c":
+				return "2*";
+			case "d":
+				return "3*";
+			case "e":
+				return "4*";
+			case "f":
+				return "5*";		
+			case "g":
+				return "6*";
+			case "h":
+				return "7*";	
+			case "i":
+				return "8*";					
+			case "j":
+				return "9*";
+			case "l":
+				return "10*";						
+		}
+	}
+	
+		function decodearrowvalue($Ar){
+		switch ($Ar){
+			case "A":
+				return "0";
+			case "B":
+				return "1";
+			case "C":
+				return "2";
+			case "D":
+				return "3";
+			case "E":
+				return "4";
+			case "F":
+				return "5";		
+			case "G":
+				return "6";
+			case "H":
+				return "7";	
+			case "I":
+				return "8";					
+			case "J":
+				return "9";
+			case "L":
+				return "10";
+			case "K":
+				return "10";
+			case "a":
+				return "0";
+			case "b":
+				return "1";
+			case "c":
+				return "2";
+			case "d":
+				return "3";
+			case "e":
+				return "4";
+			case "f":
+				return "5";		
+			case "g":
+				return "6";
+			case "h":
+				return "7";	
+			case "i":
+				return "8";					
+			case "j":
+				return "9";
+			case "l":
+				return "10";						
+		}
+	}
+
+    ?>

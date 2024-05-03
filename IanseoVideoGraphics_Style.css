@@ -1,0 +1,199 @@
+body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }
+#Total {
+	background-color: #ffffff;
+	opacity: 0;
+	width: 1960px;
+	height: 1024px;
+}
+
+
+
+#AthName {
+  background-color: #307bbb;
+  min-width: 370px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+  border-radius: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align:left;
+  height: 45px;
+  opacity: 1;
+}
+
+#score {
+  background-color: lightgrey;
+  width: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+  border-radius: 15px;
+  color: #307bbb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  height: 45px;
+  opacity: 1;
+}
+
+#scorearrow {
+  background-color: white;
+  height: 45px;
+  width: 50px;
+  padding: 20px;
+  margin: 0px;
+  border-radius: 15px;
+  color: #307bbb;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  opacity: 1;
+}
+
+#arrowvalues {
+position: fixed;
+bottom: 20px;
+left:20px;
+}
+
+#bracket_name {
+  background-color: #0c4374;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align:left;
+  height: 50px;
+  opacity: 1;
+}
+
+#bracket_score {
+  background-color: #0c4374;
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  height: 35px;
+  opacity: 1;
+}
+
+#bracket_blank {
+  background-color: #307bbb;
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  height: 30px;
+  opacity: 0;
+}
+
+#tour_name {
+  background-color: #307bbb;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  height: 40px;
+  opacity: 1;
+}
+
+#bracket_name_loser {
+  background-color: rgb(93, 140, 182);
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align:left;
+  height: 50px;
+  opacity: 1;
+}
+
+#bracket_score_loser {
+  background-color: rgb(93, 140, 182);
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  height: 35px;
+  opacity: 1;
+}
+
+#bracket_name_current {
+  background-color: rgb(81, 180, 89);
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align:left;
+  height: 40px;
+  opacity: 1;
+}
+
+#bracket_score_current {
+  background-color: rgb(81, 180, 89);
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  height: 30px;
+  opacity: 1;
+}
+
